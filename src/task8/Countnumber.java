@@ -1,6 +1,6 @@
 package task8;
 
-public class C {
+public class Countnumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
