@@ -1,4 +1,4 @@
-package SeleniumScrip;
+package SeleniumScript;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
