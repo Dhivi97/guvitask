@@ -19,7 +19,7 @@ public class LoginPassword {
 		                System.out.println("password is Not Same");
 		            }
 		        }catch (Exception e){
-		            System.out.println("e.getMessage() = " + e.getMessage());
+		            System.out.println("Invalid Password = " + e.getMessage());
 		        }
 
 
