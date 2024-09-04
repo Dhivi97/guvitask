@@ -42,7 +42,20 @@ public class DragandDrop {
 				Actions mouse = new Actions(driver);
 				mouse.dragAndDrop(drag, drop).perform();
 				
+				String backGround = drop.getCssValue("background-body");
+	        	System.out.println("Background color after drag and drop: " + backGround);
+			
+	        	//Verify that the text of the target element changes
+	        	String targetText = drop.getText();
+	        	if(targetText.equals("Dropped!")) {
+	            		System.out.println("Drag and drop operation was successful.");
+	        	}
+	        	else {
+	            		System.out.println("Drag and drop operation was failed.");
 				
+				
+
+				}
 			
 				
 			}

@@ -21,16 +21,16 @@ public class Facebook {
 		
 		//verify the Homepage website in Console
 		
-		String expectedresult1 = "Homepage";
-		String actualresult1 =driver.getCurrentUrl();
+		String expectedText=driver.getCurrentUrl();
+		String actualText = "Facebook";
 		
-		if(expectedresult1.equalsIgnoreCase(actualresult1))  {
-			System.out.println("Landed on the Homepage");
-			
-		}else {
-			System.out.println("Not landed on the Homepage");
-			
-			
+	if(expectedText.equalsIgnoreCase(actualText)) {
+		System.out.println("Hompage found");
+	} else {
+		System.out.println("Home page not found");
+	
+    
+		}
 		// Maximize the Browser
 				driver.manage().window().maximize();
 				
@@ -91,7 +91,7 @@ public class Facebook {
 }
 
 }
-}
+
 
 		
 
