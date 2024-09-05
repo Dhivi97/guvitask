@@ -21,8 +21,8 @@ public class Facebook {
 		
 		//verify the Homepage website in Console
 		
-		String expectedText=driver.getCurrentUrl();
-		String actualText = "Facebook";
+		String expectedText="Facebook";
+		String actualText = driver.getTitle();
 		
 	if(expectedText.equalsIgnoreCase(actualText)) {
 		System.out.println("Hompage found");
