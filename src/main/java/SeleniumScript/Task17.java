@@ -58,19 +58,10 @@ public class Task17 {
 				WebElement Accountname = driver.findElement(By.cssSelector("span.accountUserName"));
 				System.out.println(Accountname.getText());
 				
-				
-				
-			
-			
-				
-				
-	
-		
-	
-		
 		
 	}
 	}
 	
+
 
 
