@@ -2,7 +2,6 @@ package Task10;
 
 public class Employee {
 
-	public static void main(String[] args) {
 		
 	
 		private int id;
@@ -53,4 +52,4 @@ public class Employee {
 		}
 		
 
-	}
+}
